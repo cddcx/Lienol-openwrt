@@ -64,6 +64,7 @@ jobs:
     - name: 更新和安装订阅源
       run: |
         cd openwrt 
+        ./scripts/feeds clean
         ./scripts/feeds update -a
         ./scripts/feeds install -a
     - name: 加载files和自定义设置2
