@@ -1,2 +1,2 @@
 ## 说明
-[Lienol的openwrt](https://github.com/P3TERX/Actions-OpenWrt/generate)
+[Lienol的openwrt](https://github.com/Lienol/openwrt)
