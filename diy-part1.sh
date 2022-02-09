@@ -31,3 +31,15 @@ sed -i 's/luci-theme-argon-18.06/luci-theme-argon/g' package/luci-theme-argon/Ma
 
 # ikoolproxy去广告插件
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+
+# 科学上网插件------
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+
+git clone https://github.com/fw876/helloworld.git package/helloworld
+
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+
+#svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+#rm -rf package/luci-app-openclash/.svn
+#-----------------
