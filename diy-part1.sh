@@ -37,8 +37,8 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-pas
 
 git clone https://github.com/fw876/helloworld.git package/helloworld
 
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 #rm -rf package/luci-app-openclash/.svn
